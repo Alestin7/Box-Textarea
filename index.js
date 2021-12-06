@@ -60,7 +60,6 @@ $area.addEventListener('mouseup', function(e) {
         action = false;
         boxes[selectedBoxIndex].x = distance.x;
         boxes[selectedBoxIndex].y = distance.y;
-        boxes[selectedBoxIndex].text = boxes[selectedBoxIndex].text;
         localStorage.setItem('boxesCache', JSON.stringify(boxes));
     }
 
